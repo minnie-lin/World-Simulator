@@ -67,9 +67,9 @@ If you find this paper and repo helpful for your research, please cite it below:
 
 ```bibtex
 
-@article{hu2025simulatingrealworldunified,
+@article{hu2025simulating,
   title={Simulating the Real World: A Unified Survey of Multimodal Generative Models},
-  author={Yuqi Hu and Longguang Wang and Xian Liu and Ling-Hao Chen and Yuwei Guo and Yukai Shi and Ce Liu and Anyi Rao and Zeyu Wang and Hui Xiong},
+  author={Hu, Yuqi and Wang, Longguang and Liu, Xian and Chen, Ling-Hao and Guo, Yuwei and Shi, Yukai and Liu, Ce and Rao, Anyi and Wang, Zeyu and Xiong, Hui},
   journal={arXiv preprint arXiv:2503.04641},
   year={2025}
 }
