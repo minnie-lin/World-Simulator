@@ -33,6 +33,7 @@
 | 2024 | **MoRAG -- Multi-Fusion Retrieval Augmented Generation for Human Motion**  | WACV 2025 |          [Link](https://arxiv.org/abs/2409.12140)          | [Link](https://github.com/Motion-RAG/MoRAG) | [Link](https://motion-rag.github.io/)  |
 | 2024 | **UniMuMo: Unified Text, Music, and Motion Generation**  | AAAI 2025 |          [Link](https://arxiv.org/abs/2410.04534)          | [Link](https://github.com/hanyangclarence/UniMuMo) | [Link](https://hanyangclarence.github.io/unimumo_demo/)  |
 | 2024 | **DART: A Diffusion-Based Autoregressive Motion Model for Real-Time Text-Driven Motion Control**  | ICLR 2025 Spotlight |          [Link](https://arxiv.org/abs/2410.05260)          | -- | [Link](https://zkf1997.github.io/DART/)  |
+| 2024 | **ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2412.14559)          | [Link](https://github.com/shunlinlu/ScaMo_code) | [Link](https://shunlinlu.github.io/ScaMo/)  |
 
 
 <details close>
@@ -294,6 +295,13 @@ url={https://openreview.net/forum?id=SJ1kSyO2jwu}
   journal={arXiv preprint arXiv:2410.05260},
   year={2024}
 }
+
+@article{lu2024scamo,
+  title={ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model},
+  author={Lu, Shunlin and Wang, Jingbo and Lu, Zeyu and Chen, Ling-Hao and Dai, Wenxun and Dong, Junting and Dou, Zhiyang and Dai, Bo and Zhang, Ruimao},
+  journal={arXiv preprint arXiv:2412.14559},
+  year={2024}
+}
 ```
 </details>
 
@@ -403,15 +411,6 @@ Pengfei Zhang, Pinxin Liu, Hyeongwoo Kim, Pablo Garrido, Bindita Chaudhuri
 Controlling human motion based on text presents an important challenge in computer vision. Traditional approaches often rely on holistic action descriptions for motion synthesis, which struggle to capture subtle movements of local body parts. This limitation restricts the ability to isolate and manipulate specific movements. To address this, we propose a novel motion representation that decomposes motion into distinct body joint group movements and interactions from a kinematic perspective. We design an automatic dataset collection pipeline that enhances the existing text-motion benchmark by incorporating fine-grained local joint-group motion and interaction descriptions. To bridge the gap between text and motion domains, we introduce a hierarchical motion semantics approach that progressively fuses joint-level interaction information into the global action-level semantics for modality alignment. With this hierarchy, we introduce a coarse-to-fine motion synthesis procedure for various generation and editing downstream applications. Our quantitative and qualitative experiments demonstrate that the proposed formulation enhances text-motion retrieval by improving joint-spatial understanding, and enables more precise joint-motion generation and control.
 </details>
 
-#### 13. ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model
-Shunlin Lu, Jingbo Wang, Zeyu Lu, Ling-Hao Chen, Wenxun Dai, Junting Dong, Zhiyang Dou, Bo Dai, Ruimao Zhang
-
-(Sun Yat-sen University, The Chinese University of Hongkong Shenzhen, Shanghai AI Laboratory, Tsinghua University, Shanghai Jiao Tong University, The University of Hong Kong)
-<details span>
-<summary><b>Abstract</b></summary>
-The scaling law has been validated in various domains, such as natural language processing (NLP) and massive computer vision tasks; however, its application to motion generation remains largely unexplored. In this paper, we introduce a scalable motion generation framework that includes the motion tokenizer Motion FSQ-VAE and a text-prefix autoregressive transformer. Through comprehensive experiments, we observe the scaling behavior of this system. For the first time, we confirm the existence of scaling laws within the context of motion generation. Specifically, our results demonstrate that the normalized test loss of our prefix autoregressive models adheres to a logarithmic law in relation to compute budgets. Furthermore, we also confirm the power law between Non-Vocabulary Parameters, Vocabulary Parameters, and Data Tokens with respect to compute budgets respectively. Leveraging the scaling law, we predict the optimal transformer size, vocabulary size, and data requirements for a compute budget of 1e18. The test loss of the system, when trained with the optimal model size, vocabulary size, and required data, aligns precisely with the predicted test loss, thereby validating the scaling law.
-</details>
-
 ---
 
 | Year | Title                                                        | ArXiv Time  |                           Paper                            |                      Code                      | Project Page                      |
@@ -428,7 +427,6 @@ The scaling law has been validated in various domains, such as natural language 
 | 2024 | **MotionCLR: Motion Generation and Training-free Editing via Understanding Attention Mechanisms**  | 24 Oct 2024 |          [Link](https://arxiv.org/abs/2410.18977)          | [Link](https://github.com/IDEA-Research/MotionCLR) | [Link](https://lhchen.top/MotionCLR/)  |
 | 2024 | **KMM: Key Frame Mask Mamba for Extended Motion Generation**  | 10 Nov 2024 |          [Link](https://arxiv.org/abs/2411.06481)          | [Link](https://github.com/steve-zeyu-zhang/KMM) | [Link](https://steve-zeyu-zhang.github.io/KMM/)  |
 | 2024 | **KinMo: Kinematic-aware Human Motion Understanding and Generation**  | 23 Nov 2024 |          [Link](https://arxiv.org/abs/2411.15472)          | -- | [Link](https://andypinxinliu.github.io/KinMo/)  |
-| 2024 | **ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model**  | 19 Dec 2024 |          [Link](https://arxiv.org/abs/2412.14559)          | [Link](https://github.com/shunlinlu/ScaMo_code) | [Link](https://shunlinlu.github.io/ScaMo/)  |
 
 <details close>
 <summary>ArXiv Papers References</summary>
@@ -548,16 +546,6 @@ The scaling law has been validated in various domains, such as natural language 
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2411.15472}, 
-}
-
-@misc{lu2024scamoexploringscalinglaw,
-      title={ScaMo: Exploring the Scaling Law in Autoregressive Motion Generation Model}, 
-      author={Shunlin Lu and Jingbo Wang and Zeyu Lu and Ling-Hao Chen and Wenxun Dai and Junting Dong and Zhiyang Dou and Bo Dai and Ruimao Zhang},
-      year={2024},
-      eprint={2412.14559},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.14559}, 
 }
 ```
 </details>
