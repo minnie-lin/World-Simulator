@@ -18,6 +18,7 @@
 | 2024 | **Disentangled Clothed Avatar Generation from Text Descriptions**  | ECCV 2024  |          [Link](https://arxiv.org/abs/2312.05295)          | [Link](https://github.com/shanemankiw/SO-SMPL) | [Link](https://shanemankiw.github.io/SO-SMPL/)  |
 | 2024 | **MagicMirror: Fast and High-Quality Avatar Generation with a Constrained Search Space**  | ECCV 2024  |          [Link](https://arxiv.org/abs/2404.01296)      | -- | [Link](https://syntec-research.github.io/MagicMirror/)  |
 | 2024 | **AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction**  | CVPR 2025  |         [Link](https://arxiv.org/abs/2412.02684)        | [Link](https://github.com/aigc3d/AniGS)| [Link](https://lingtengqiu.github.io/2024/AniGS/) |
+| 2024 | **StdGEN: Semantic-Decomposed 3D Character Generation from Single Images**  | CVPR 2025  |         [Link](https://arxiv.org/abs/2411.05738)        | [Link](https://github.com/hyz317/StdGEN)| [Link](https://stdgen.github.io/) |
 <details close>
 <summary>Accepted Papers References</summary>
 
@@ -144,6 +145,13 @@ year={2024}
   title={AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction},
   author={Qiu, Lingteng and Zhu, Shenhao and Zuo, Qi and Gu, Xiaodong and Dong, Yuan and Zhang, Junfei and Xu, Chao and Li, Zhe and Yuan, Weihao and Bo, Liefeng and others},
   journal={arXiv preprint arXiv:2412.02684},
+  year={2024}
+}
+
+@article{he2024stdgen,
+  title={StdGEN: Semantic-Decomposed 3D Character Generation from Single Images},
+  author={He, Yuze and Zhou, Yanning and Zhao, Wang and Wu, Zhongkai and Xiao, Kaiwen and Yang, Wei and Liu, Yong-Jin and Han, Xiao},
+  journal={arXiv preprint arXiv:2411.05738},
   year={2024}
 }
 ```
