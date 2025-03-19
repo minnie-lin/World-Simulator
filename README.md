@@ -32,6 +32,7 @@ This repository is divided into two main sections:
       * [Algorithms](#4d-algorithms)
       * [Applications](#4d-applications)
   - [Other Related Resources](#other-related-resources)
+    * [World Foundation Model Platform](#world-foundation-model-platform)
 - [Text2X Resources](#-awesome-text2x-resources)
 	- [Text to 4D](#text-to-4d)
 	  * [ArXiv Papers](#-4d-arxiv-papers)
@@ -738,7 +739,7 @@ We compare Avat3r with current state-of-the-art methods for few-input and single
 ### Previous Papers
 
 ### Year 2023-2024
-For more details, please check the [2023-2024 3D Human Papers](./docs/3d_human/human_23-24.md), including 16 accepted papers and 6 arXiv papers.
+For more details, please check the [2023-2024 3D Human Papers](./docs/3d_human/human_23-24.md), including 17 accepted papers and 6 arXiv papers.
 
 <details close>
 <summary>Survey and Awesome Repos</summary>
