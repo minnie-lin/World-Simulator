@@ -21,6 +21,7 @@
 | 2024 | **The Scene Language: Representing Scenes with Programs, Words, and Embeddings**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2410.16770)          | [Link](https://github.com/zzyunzhi/scene-language)  | [Link](https://ai.stanford.edu/~yzzhang/projects/scene-language/)|
 | 2024 | **Prometheus: 3D-Aware Latent Diffusion Models for Feed-Forward Text-to-3D Scene Generation**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2412.21117)          | [Link](https://github.com/XDimLab/Prometheus)  | [Link](https://freemty.github.io/project-prometheus/)|
 | 2024 | **WonderWorld: Interactive 3D Scene Generation from a Single Image**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2406.09394)          | [Link](https://github.com/KovenYu/WonderWorld)  | [Link](https://kovenyu.com/wonderworld/) |
+| 2024 | **MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2412.03558)          | [Link](https://github.com/VAST-AI-Research/MIDI-3D)  | [Link](https://huanngzh.github.io/MIDI-Page/) |
 
 <details close>
 <summary>Accepted Papers References</summary>
@@ -192,6 +193,13 @@
     author={Hong-Xing Yu and Haoyi Duan and Charles Herrmann and William T. Freeman and Jiajun Wu},
     journal={arXiv:2406.09394},
     year={2024}
+}
+
+@article{huang2024midi,
+  title={MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation},
+  author={Huang, Zehuan and Guo, Yuanchen and An, Xingqiao and Yang, Yunhan and Li, Yangguang and Zou, Zixin and Liang, Ding and Liu, Xihui and Cao, Yanpei and Sheng, Lu},
+  journal={arXiv preprint arXiv:2412.03558},
+  year={2024}
 }
 ```
 </details>
