@@ -35,8 +35,10 @@ This repository is divided into two main sections:
     * [World Foundation Model Platform](#world-foundation-model-platform)
 - [Text2X Resources](#-awesome-text2x-resources)
 	- [Text to 4D](#text-to-4d)
+    * [Accepted Papers](#-4d-accepted-papers)
 	  * [ArXiv Papers](#-4d-arxiv-papers)
 	- [Text to Video](#text-to-video)
+    * [Accepted Papers](#-t2v-accepted-papers)
 	  * [ArXiv Papers](#-t2v-arxiv-papers)
 	  * [Additional Info](#video-other-additional-info)
 	- [Text to 3D Scene](#text-to-scene)
@@ -45,6 +47,7 @@ This repository is divided into two main sections:
 	  * [ArXiv Papers](#-motion-arxiv-papers)
 	  * [Additional Info](#motion-other-additional-info)
 	- [Text to 3D Human](#text-to-3d-human)
+    * [Accepted Papers](#-human-accepted-papers)
 	  * [ArXiv Papers](#-human-arxiv-papers)
 	- [Related Resources](#related-resources)
 	  * [Text to Other Tasks](#text-to-other-tasks)
@@ -413,6 +416,8 @@ An open collection of state-of-the-art (SOTA), novel **Text to X (X can be every
 ```
 </details>
 
+-------
+
 ### 💡 4D ArXiv Papers
 
 #### 1. AR4D: Autoregressive 4D Generation from Monocular Videos
@@ -423,10 +428,21 @@ Recent advancements in generative models have ignited substantial interest in dy
 </details>
 
 #### 2. WideRange4D: Enabling High-Quality 4D Reconstruction with Wide-Range Movements and Scenes
-Ling Yang, Kaixin Zhu, Juanxi Tian, Bohan Zeng, Mingbao Lin, Hongjuan Pei, Wentao Zhang, Shuicheng Yan (Peking University, University of the Chinese Academy of Sciences, National University of Singapore)
+Ling Yang, Kaixin Zhu, Juanxi Tian, Bohan Zeng, Mingbao Lin, Hongjuan Pei, Wentao Zhang, Shuicheng Yan 
+
+(Peking University, University of the Chinese Academy of Sciences, National University of Singapore)
 <details span>
 <summary><b>Abstract</b></summary>
 With the rapid development of 3D reconstruction technology, research in 4D reconstruction is also advancing, existing 4D reconstruction methods can generate high-quality 4D scenes. However, due to the challenges in acquiring multi-view video data, the current 4D reconstruction benchmarks mainly display actions performed in place, such as dancing, within limited scenarios. In practical scenarios, many scenes involve wide-range spatial movements, highlighting the limitations of existing 4D reconstruction datasets. Additionally, existing 4D reconstruction methods rely on deformation fields to estimate the dynamics of 3D objects, but deformation fields struggle with wide-range spatial movements, which limits the ability to achieve high-quality 4D scene reconstruction with wide-range spatial movements. In this paper, we focus on 4D scene reconstruction with significant object spatial movements and propose a novel 4D reconstruction benchmark, WideRange4D. This benchmark includes rich 4D scene data with large spatial variations, allowing for a more comprehensive evaluation of the generation capabilities of 4D generation methods. Furthermore, we introduce a new 4D reconstruction method, Progress4D, which generates stable and high-quality 4D results across various complex 4D scene reconstruction tasks. We conduct both quantitative and qualitative comparison experiments on WideRange4D, showing that our Progress4D outperforms existing state-of-the-art 4D reconstruction methods. 
+</details>
+
+#### 3. SV4D 2.0: Enhancing Spatio-Temporal Consistency in Multi-View Video Diffusion for High-Quality 4D Generation
+Chun-Han Yao, Yiming Xie, Vikram Voleti, Huaizu Jiang, Varun Jampani 
+
+(Stability AI, Northeastern University)
+<details span>
+<summary><b>Abstract</b></summary>
+We present Stable Video 4D 2.0 (SV4D 2.0), a multi-view video diffusion model for dynamic 3D asset generation. Compared to its predecessor SV4D, SV4D 2.0 is more robust to occlusions and large motion, generalizes better to real-world videos, and produces higher-quality outputs in terms of detail sharpness and spatio-temporal consistency. We achieve this by introducing key improvements in multiple aspects: 1) network architecture: eliminating the dependency of reference multi-views and designing blending mechanism for 3D and frame attention, 2) data: enhancing quality and quantity of training data, 3) training strategy: adopting progressive 3D-4D training for better generalization, and 4) 4D optimization: handling 3D inconsistency and large motion via 2-stage refinement and progressive frame sampling. Extensive experiments demonstrate significant performance gain by SV4D 2.0 both visually and quantitatively, achieving better detail (-14\% LPIPS) and 4D consistency (-44\% FV4D) in novel-view video synthesis and 4D optimization (-12\% LPIPS and -24\% FV4D) compared to SV4D. 
 </details>
 
 -----
@@ -437,6 +453,7 @@ With the rapid development of 3D reconstruction technology, research in 4D recon
 | ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | 2025 | **AR4D: Autoregressive 4D Generation from Monocular Videos**  | 3 Jan 2025 |          [Link](https://arxiv.org/abs/2501.01722)          | --  | [Link](https://hanxinzhu-lab.github.io/AR4D/)  |
 | 2025 | **WideRange4D: Enabling High-Quality 4D Reconstruction with Wide-Range Movements and Scenes**  | 17 Mar 2025 |          [Link](https://arxiv.org/abs/2503.13435)          | [Link](https://github.com/Gen-Verse/WideRange4D)  | [Dataset Page](https://huggingface.co/datasets/Gen-Verse/WideRange4D)  |
+| 2025 | **SV4D 2.0: Enhancing Spatio-Temporal Consistency in Multi-View Video Diffusion for High-Quality 4D Generation**  | 20 Mar 2025 |          [Link](https://arxiv.org/abs/2503.16396)          | --  | [Link](https://sv4d2.0.github.io/)  |
 
 <details close>
 <summary>ArXiv Papers References</summary>
@@ -459,6 +476,16 @@ With the rapid development of 3D reconstruction technology, research in 4D recon
   author={Yang, Ling and Zhu, Kaixin and Tian, Juanxi and Zeng, Bohan and Lin, Mingbao and Pei, Hongjuan and Zhang, Wentao and Yan, Shuichen},
   journal={arXiv preprint arXiv:2503.13435},
   year={2025}
+}
+
+@misc{yao2025sv4d20enhancingspatiotemporal,
+      title={SV4D 2.0: Enhancing Spatio-Temporal Consistency in Multi-View Video Diffusion for High-Quality 4D Generation}, 
+      author={Chun-Han Yao and Yiming Xie and Vikram Voleti and Huaizu Jiang and Varun Jampani},
+      year={2025},
+      eprint={2503.16396},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.16396}, 
 }
 ```
 </details>
@@ -508,6 +535,8 @@ For more details, please check the [2024 4D Papers](./docs/4d/4d_2024.md), inclu
 }
 ```
 </details>
+
+-------
 
 ### 💡 T2V ArXiv Papers
 
@@ -699,6 +728,30 @@ AMASS is a large database of human motion unifying different optical marker-base
 
 ## Text to 3D Human
 
+### 🎉 Human Accepted Papers
+| Year | Title                                                        | Venue  |                           Paper                            |                      Code                      | Project Page                      |
+| ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
+| 2025 | **Zero-1-to-A: Zero-Shot One Image to Animatable Head Avatars Using Video Diffusion**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2503.15851)          | [Link](https://github.com/ZhenglinZhou/Zero-1-to-A)  | [Link](https://zhenglinzhou.github.io/Zero-1-to-A/)  |
+
+<details close>
+<summary>Accepted Papers References</summary>
+
+```
+%accepted papers
+
+@inproceedings{zhou2025zero1toa,
+  title = {Zero-1-to-A: Zero-Shot One Image to Animatable Head Avatars Using Video Diffusion},
+  author = {Zhenglin Zhou and Fan Ma and Hehe Fan and Tat-Seng Chua},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2025},
+}
+
+```
+</details>
+
+
+---------
+
 ### 💡 Human ArXiv Papers
 
 #### 1. Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars
@@ -849,6 +902,9 @@ SMPL-X, that extends SMPL with fully articulated hands and facial expressions (5
 
 <details close>
 <summary>🔥 Topic 4: AIGC 4D </summary>
+
+#### Survey
+- [Advances in 4D Generation: A Survey](https://arxiv.org/abs/2503.14501), ArXiv 2025
 	
 #### Awesome Repos
 - Resource1: [Awesome 4D Generation](https://github.com/cwchenwang/awesome-4d-generation)
