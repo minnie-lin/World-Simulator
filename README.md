@@ -1,6 +1,5 @@
 # Simulating the Real World: Survey & Resources
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FALEEEHU%2FAwesome-Text2X-Resources%2F&count_bg=%23EAA8EA&title_bg=%233D2549&icon=react.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=true)](https://hits.seeyoufarm.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-pink.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-pink) [![Contribution Welcome](https://img.shields.io/badge/Contributions-welcome-pink)]()
 ![Stars](https://img.shields.io/github/stars/ALEEEHU/World-Simulator)
@@ -630,9 +629,19 @@ Yang Zhou, Zongjin He, Qixuan Li, Chao Wang (ShangHai University)
 Recently, the field of text-guided 3D scene generation has garnered significant attention. High-quality generation that aligns with physical realism and high controllability is crucial for practical 3D scene applications. However, existing methods face fundamental limitations: (i) difficulty capturing complex relationships between multiple objects described in the text, (ii) inability to generate physically plausible scene layouts, and (iii) lack of controllability and extensibility in compositional scenes. In this paper, we introduce LayoutDreamer, a framework that leverages 3D Gaussian Splatting (3DGS) to facilitate high-quality, physically consistent compositional scene generation guided by text. Specifically, given a text prompt, we convert it into a directed scene graph and adaptively adjust the density and layout of the initial compositional 3D Gaussians. Subsequently, dynamic camera adjustments are made based on the training focal point to ensure entity-level generation quality. Finally, by extracting directed dependencies from the scene graph, we tailor physical and layout energy to ensure both realism and flexibility. Comprehensive experiments demonstrate that LayoutDreamer outperforms other compositional scene generation quality and semantic alignment methods. Specifically, it achieves state-of-the-art (SOTA) performance in the multiple objects generation metric of T3Bench.
 </details>
 
+#### 2. Bolt3D: Generating 3D Scenes in Seconds
+Stanislaw Szymanowicz, Jason Y. Zhang, Pratul Srinivasan, Ruiqi Gao, Arthur Brussee, Aleksander Holynski, Ricardo Martin-Brualla, Jonathan T. Barron, Philipp Henzler 
+
+(Google Research, University of Oxford, Google DeepMind)
+<details span>
+<summary><b>Abstract</b></summary>
+We present a latent diffusion model for fast feed-forward 3D scene generation. Given one or more images, our model Bolt3D directly samples a 3D scene representation in less than seven seconds on a single GPU. We achieve this by leveraging powerful and scalable existing 2D diffusion network architectures to produce consistent high-fidelity 3D scene representations. To train this model, we create a large-scale multiview-consistent dataset of 3D geometry and appearance by applying state-of-the-art dense 3D reconstruction techniques to existing multiview image datasets. Compared to prior multiview generative models that require per-scene optimization for 3D reconstruction, Bolt3D reduces the inference cost by a factor of up to 300 times.
+</details>
+
 | Year | Title                                                        | ArXiv Time  |                           Paper                            |                      Code                      | Project Page                      |
 | ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | 2025 | **LAYOUTDREAMER: Physics-guided Layout for Text-to-3D Compositional Scene Generation**  | 4 Feb 2025 |          [Link](https://arxiv.org/abs/2502.01949)          | --  | --  |
+| 2025 | **Bolt3D: Generating 3D Scenes in Seconds**  | 18 Mar 2025 |          [Link](https://arxiv.org/abs/2503.14445)          | --  | [Link](https://szymanowiczs.github.io/bolt3d)  |
 
 <details close>
 <summary>ArXiv Papers References</summary>
@@ -645,6 +654,15 @@ Recently, the field of text-guided 3D scene generation has garnered significant 
   author={Zhou, Yang and He, Zongjin and Li, Qixuan and Wang, Chao},
   journal={arXiv preprint arXiv:2502.01949},
   year={2025}
+}
+
+@article{szymanowicz2025bolt3d,
+title={{Bolt3D: Generating 3D Scenes in Seconds}},
+author={Szymanowicz, Stanislaw and Zhang, Jason Y. and Srinivasan, Pratul
+     and Gao, Ruiqi and Brussee, Arthur and Holynski, Aleksander and
+     Martin-Brualla, Ricardo and Barron, Jonathan T. and Henzler, Philipp},
+journal={arXiv:2503.14445},
+year={2025}
 }
 
 ```
