@@ -711,7 +711,7 @@ This paper addresses the challenge of text-conditioned streaming motion generati
 | ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | 2025 | **MotionLab: Unified Human Motion Generation and Editing via the Motion-Condition-Motion Paradigm**  | 6 Feb 2025 |          [Link](https://arxiv.org/abs/2502.02358)          | [Link](https://github.com/Diouo/MotionLab)  | [Link](https://diouo.github.io/motionlab.github.io/)  |
 | 2025 | **Motion Anything: Any to Motion Generation**  | 12 Mar 2025 |          [Link](https://arxiv.org/abs/2503.06955)          | [Link](https://github.com/steve-zeyu-zhang/MotionAnything)  | [Link](https://steve-zeyu-zhang.github.io/MotionAnything/)  |
-| 2025 | **MotionStreamer: Streaming Motion Generation via Diffusion-based Autoregressive Model in Causal Latent Space**  | 19 Mar 2025 |          [Link](https://arxiv.org/abs/2503.15451)          | [Link](https://github.com/Li-xingXiao/272-dim-Motion-Representation)  | [Link](https://zju3dv.github.io/MotionStreamer/)  |
+| 2025 | **MotionStreamer: Streaming Motion Generation via Diffusion-based Autoregressive Model in Causal Latent Space**  | 19 Mar 2025 |          [Link](https://arxiv.org/abs/2503.15451)          | [Link](https://github.com/zju3dv/MotionStreamer)  | [Link](https://zju3dv.github.io/MotionStreamer/)  |
 
 <details close>
 <summary>ArXiv Papers References</summary>
