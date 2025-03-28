@@ -922,6 +922,9 @@ SMPL-X, that extends SMPL with fully articulated hands and facial expressions (5
 
 <details close>
 <summary>🔥 Topic 2: AIGC 3D </summary>
+
+#### Foundation Model
+- [Cube](https://github.com/Roblox/cube), [ArXiv Report](https://arxiv.org/abs/2503.15475)
  
 #### Survey
 - [Advances in 3D Generation: A Survey](https://arxiv.org/abs/2401.17807), ArXiv 2024
