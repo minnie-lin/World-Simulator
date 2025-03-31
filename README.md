@@ -444,6 +444,15 @@ Chun-Han Yao, Yiming Xie, Vikram Voleti, Huaizu Jiang, Varun Jampani
 We present Stable Video 4D 2.0 (SV4D 2.0), a multi-view video diffusion model for dynamic 3D asset generation. Compared to its predecessor SV4D, SV4D 2.0 is more robust to occlusions and large motion, generalizes better to real-world videos, and produces higher-quality outputs in terms of detail sharpness and spatio-temporal consistency. We achieve this by introducing key improvements in multiple aspects: 1) network architecture: eliminating the dependency of reference multi-views and designing blending mechanism for 3D and frame attention, 2) data: enhancing quality and quantity of training data, 3) training strategy: adopting progressive 3D-4D training for better generalization, and 4) 4D optimization: handling 3D inconsistency and large motion via 2-stage refinement and progressive frame sampling. Extensive experiments demonstrate significant performance gain by SV4D 2.0 both visually and quantitatively, achieving better detail (-14\% LPIPS) and 4D consistency (-44\% FV4D) in novel-view video synthesis and 4D optimization (-12\% LPIPS and -24\% FV4D) compared to SV4D. 
 </details>
 
+#### 4. Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency
+Tianqi Liu, Zihao Huang, Zhaoxi Chen, Guangcong Wang, Shoukang Hu, Liao Shen, Huiqiang Sun, Zhiguo Cao, Wei Li, Ziwei Liu
+
+(Huazhong University of Science and Technology, Nanyang Technological University, Great Bay University)
+<details span>
+<summary><b>Abstract</b></summary>
+We present Free4D, a novel tuning-free framework for 4D scene generation from a single image. Existing methods either focus on object-level generation, making scene-level generation infeasible, or rely on large-scale multi-view video datasets for expensive training, with limited generalization ability due to the scarcity of 4D scene data. In contrast, our key insight is to distill pre-trained foundation models for consistent 4D scene representation, which offers promising advantages such as efficiency and generalizability. 1) To achieve this, we first animate the input image using image-to-video diffusion models followed by 4D geometric structure initialization. 2) To turn this coarse structure into spatial-temporal consistent multiview videos, we design an adaptive guidance mechanism with a point-guided denoising strategy for spatial consistency and a novel latent replacement strategy for temporal coherence. 3) To lift these generated observations into consistent 4D representation, we propose a modulation-based refinement to mitigate inconsistencies while fully leveraging the generated information. The resulting 4D representation enables real-time, controllable rendering, marking a significant advancement in single-image-based 4D scene generation.
+</details>
+
 -----
 
 </details>
@@ -453,6 +462,7 @@ We present Stable Video 4D 2.0 (SV4D 2.0), a multi-view video diffusion model fo
 | 2025 | **AR4D: Autoregressive 4D Generation from Monocular Videos**  | 3 Jan 2025 |          [Link](https://arxiv.org/abs/2501.01722)          | --  | [Link](https://hanxinzhu-lab.github.io/AR4D/)  |
 | 2025 | **WideRange4D: Enabling High-Quality 4D Reconstruction with Wide-Range Movements and Scenes**  | 17 Mar 2025 |          [Link](https://arxiv.org/abs/2503.13435)          | [Link](https://github.com/Gen-Verse/WideRange4D)  | [Dataset Page](https://huggingface.co/datasets/Gen-Verse/WideRange4D)  |
 | 2025 | **SV4D 2.0: Enhancing Spatio-Temporal Consistency in Multi-View Video Diffusion for High-Quality 4D Generation**  | 20 Mar 2025 |          [Link](https://arxiv.org/abs/2503.16396)          | --  | [Link](https://sv4d2.0.github.io/)  |
+| 2025 | **Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency**  | 26 Mar 2025 |          [Link](https://arxiv.org/abs/2503.20785)          | [Link](https://github.com/TQTQliu/Free4D)  | [Link](https://free4d.github.io/)  |
 
 <details close>
 <summary>ArXiv Papers References</summary>
@@ -486,6 +496,13 @@ We present Stable Video 4D 2.0 (SV4D 2.0), a multi-view video diffusion model fo
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2503.16396}, 
 }
+
+ @article{liu2025free4d,
+     title={Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency},
+     author={Liu, Tianqi and Huang, Zihao and Chen, Zhaoxi and Wang, Guangcong and Hu, Shoukang and Shen, liao and Sun, Huiqiang and Cao, Zhiguo and Li, Wei and Liu, Ziwei},
+     journal={arXiv preprint arXiv:2503.20785},
+     year={2025}
+ }
 ```
 </details>
 
