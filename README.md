@@ -43,6 +43,7 @@ This repository is divided into two main sections:
   - [Text to 3D Scene](#text-to-scene)
     * [ArXiv Papers](#-3d-scene-arxiv-papers)
   - [Text to Human Motion](#text-to-human-motion)
+    * [Accepted Papers](#-motion-accepted-papers)
     * [ArXiv Papers](#-motion-arxiv-papers)
     * [Additional Info](#motion-other-additional-info)
   - [Text to 3D Human](#text-to-3d-human)
@@ -703,6 +704,29 @@ For more details, please check the [2023-2024 3D Scene Papers](./docs/3d_scene/3
 
 
 ## Text to Human Motion
+
+### 🎉 Motion Accepted Papers
+| Year | Title                                                        | Venue  |                           Paper                            |                      Code                      | Project Page                      |
+| ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
+| 2025 | **MixerMDM: Learnable Composition of Human Motion Diffusion Models**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2504.01019)          | [Link](https://github.com/pabloruizponce/MixerMDM)  | [Link](https://www.pabloruizponce.com/papers/MixerMDM)  |
+
+<details close>
+<summary>Accepted Papers References</summary>
+
+```
+%accepted papers
+
+@article{ruiz2025mixermdm,
+  title={MixerMDM: Learnable Composition of Human Motion Diffusion Models},
+  author={Ruiz-Ponce, Pablo and Barquero, German and Palmero, Cristina and Escalera, Sergio and Garc{\'\i}a-Rodr{\'\i}guez, Jos{\'e}},
+  journal={arXiv preprint arXiv:2504.01019},
+  year={2025}
+}
+
+```
+</details>
+
+-------
 
 ### 💡 Motion ArXiv Papers
 
