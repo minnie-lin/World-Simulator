@@ -12,6 +12,7 @@
 | 2023 | **HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting**  | CVPR 2024  |          [Link](https://arxiv.org/abs/2311.17061)          | [Link](https://github.com/alvinliu0/HumanGaussian)  | [Link](https://alvinliu0.github.io/projects/HumanGaussian)  | 
 | 2023 | **HumanNorm: Learning Normal Diffusion Model for High-quality and Realistic 3D Human Generation**  | CVPR 2024  |          [Link](https://arxiv.org/abs/2310.01406)          | [Link](https://github.com/xhuangcv/humannorm)  | [Link](https://humannorm.github.io/)  |
 | 2024 | **En3D: An Enhanced Generative Model for Sculpting 3D Humans from 2D Synthetic Data**  | CVPR 2024  |          [Link](https://arxiv.org/abs/2401.01173)          |  [Link](https://github.com/menyifang/En3D)  | [Link](https://menyifang.github.io/projects/En3D/index.html)  |
+| 2024 | **HumanCoser: Layered 3D Human Generation via Semantic-Aware Diffusion Model**  | ISMAR 2024  |          [Link](https://arxiv.org/abs/2408.11357)          | -- | -- |
 | 2024 | **HeadArtist: Text-conditioned 3D Head Generation with Self Score Distillation**  | SIGGRAPH 2024  |          [Link](https://arxiv.org/abs/2312.07539)          |  [Link](https://github.com/KumapowerLIU/HeadArtist)  | [Link](https://kumapowerliu.github.io/HeadArtist/)  |
 | 2024 | **HeadStudio: Text to Animatable Head Avatars with 3D Gaussian Splatting**  | ECCV 2024  |          [Link](https://arxiv.org/abs/2402.06149)          |  [Link](https://github.com/ZhenglinZhou/HeadStudio/)  | [Link](https://zhenglinzhou.github.io/HeadStudio-ProjectPage/)  |
 | 2024 | **Instant 3D Human Avatar Generation using Image Diffusion Models**  | ECCV 2024  |          [Link](https://arxiv.org/abs/2406.07516)          | -- | [Link](https://www.nikoskolot.com/avatarpopup/)  |
@@ -19,6 +20,7 @@
 | 2024 | **MagicMirror: Fast and High-Quality Avatar Generation with a Constrained Search Space**  | ECCV 2024  |          [Link](https://arxiv.org/abs/2404.01296)      | -- | [Link](https://syntec-research.github.io/MagicMirror/)  |
 | 2024 | **AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction**  | CVPR 2025  |         [Link](https://arxiv.org/abs/2412.02684)        | [Link](https://github.com/aigc3d/AniGS)| [Link](https://lingtengqiu.github.io/2024/AniGS/) |
 | 2024 | **StdGEN: Semantic-Decomposed 3D Character Generation from Single Images**  | CVPR 2025  |         [Link](https://arxiv.org/abs/2411.05738)        | [Link](https://github.com/hyz317/StdGEN)| [Link](https://stdgen.github.io/) |
+
 <details close>
 <summary>Accepted Papers References</summary>
 
@@ -101,6 +103,19 @@ year={2024}
   year={2024}
 }
 
+@INPROCEEDINGS{10765448,
+  author={Wang, Yi and Ma, Jian and Shao, Ruizhi and Feng, Qiao and Lai, Yu-Kun and Li, Kun},
+  booktitle={2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, 
+  title={HumanCoser: Layered 3D Human Generation via Semantic-Aware Diffusion Model}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={436-445},
+  keywords={Three-dimensional displays;Codes;Shape;Deformation;Clothing;Diffusion models;Animation;Rendering (computer graphics);Augmented reality;3D Human Generation;Layered Clothing;Physical Decoupling;Human Animation},
+  doi={10.1109/ISMAR62088.2024.00058}
+}
+
+
 @article{liu2023HeadArtist,
   author = {Hongyu Liu, Xuan Wang, Ziyu Wan, Yujun Shen, Yibing Song, Jing Liao, Qifeng Chen},
   title = {HeadArtist: Text-conditioned 3D Head Generation with Self Score Distillation},
@@ -179,16 +194,7 @@ Jiayin Zhu, Linlin Yang, Angela Yao
 We present InstructHumans, a novel framework for instruction-driven 3D human texture editing. Existing text-based editing methods use Score Distillation Sampling (SDS) to distill guidance from generative models. This work shows that naively using such scores is harmful to editing as they destroy consistency with the source avatar. Instead, we propose an alternate SDS for Editing (SDS-E) that selectively incorporates subterms of SDS across diffusion timesteps. We further enhance SDS-E with spatial smoothness regularization and gradient-based viewpoint sampling to achieve high-quality edits with sharp and high-fidelity detailing. InstructHumans significantly outperforms existing 3D editing methods, consistent with the initial avatar while faithful to the textual instructions.
 </details>
 
-#### 3. HumanCoser: Layered 3D Human Generation via Semantic-Aware Diffusion Model
-Yi Wang, Jian Ma, Ruizhi Shao, Qiao Feng, Yu-kun Lai, Kun Li
-
-(Tianjin University, Changzhou Institute of Technology, Cardiff University)
-<details span>
-<summary><b>Abstract</b></summary>
-This paper aims to generate physically-layered 3D humans from text prompts. Existing methods either generate 3D clothed humans as a whole or support only tight and simple clothing generation, which limits their applications to virtual try-on and part-level editing. To achieve physically-layered 3D human generation with reusable and complex clothing, we propose a novel layer-wise dressed human representation based on a physically-decoupled diffusion model. Specifically, to achieve layer-wise clothing generation, we propose a dual-representation decoupling framework for generating clothing decoupled from the human body, in conjunction with an innovative multi-layer fusion volume rendering method. To match the clothing with different body shapes, we propose an SMPL-driven implicit field deformation network that enables the free transfer and reuse of clothing. Extensive experiments demonstrate that our approach not only achieves state-of-the-art layered 3D human generation with complex clothing but also supports virtual try-on and layered human animation.
-</details>
-
-#### 4. DreamHOI: Subject-Driven Generation of 3D Human-Object Interactions with Diffusion Priors
+#### 3. DreamHOI: Subject-Driven Generation of 3D Human-Object Interactions with Diffusion Priors
 Thomas Hanwen Zhu, Ruining Li, Tomas Jakab
 
 (University of Oxford, Carnegie Mellon University)
@@ -197,7 +203,7 @@ Thomas Hanwen Zhu, Ruining Li, Tomas Jakab
 We present DreamHOI, a novel method for zero-shot synthesis of human-object interactions (HOIs), enabling a 3D human model to realistically interact with any given object based on a textual description. This task is complicated by the varying categories and geometries of real-world objects and the scarcity of datasets encompassing diverse HOIs. To circumvent the need for extensive data, we leverage text-to-image diffusion models trained on billions of image-caption pairs. We optimize the articulation of a skinned human mesh using Score Distillation Sampling (SDS) gradients obtained from these models, which predict image-space edits. However, directly backpropagating image-space gradients into complex articulation parameters is ineffective due to the local nature of such gradients. To overcome this, we introduce a dual implicit-explicit representation of a skinned mesh, combining (implicit) neural radiance fields (NeRFs) with (explicit) skeleton-driven mesh articulation. During optimization, we transition between implicit and explicit forms, grounding the NeRF generation while refining the mesh articulation. We validate our approach through extensive experiments, demonstrating its effectiveness in generating realistic HOIs.
 </details>
 
-#### 5. MixedGaussianAvatar: Realistically and Geometrically Accurate Head Avatar via Mixed 2D-3D Gaussian Splatting
+#### 4. MixedGaussianAvatar: Realistically and Geometrically Accurate Head Avatar via Mixed 2D-3D Gaussian Splatting
 Peng Chen, Xiaobao Wei, Qingpo Wuwu, Xinyi Wang, Xingyu Xiao, Ming Lu
 
 (Institute of Software Chinese Academy of Sciences, University of Chinese Academy of Sciences, Intel Labs China, Tsinghua University, Nankai University, Peking University)
@@ -206,7 +212,7 @@ Peng Chen, Xiaobao Wei, Qingpo Wuwu, Xinyi Wang, Xingyu Xiao, Ming Lu
 Reconstructing high-fidelity 3D head avatars is crucial in various applications such as virtual reality. The pioneering methods reconstruct realistic head avatars with Neural Radiance Fields (NeRF), which have been limited by training and rendering speed. Recent methods based on 3D Gaussian Splatting (3DGS) significantly improve the efficiency of training and rendering. However, the surface inconsistency of 3DGS results in subpar geometric accuracy; later, 2DGS uses 2D surfels to enhance geometric accuracy at the expense of rendering fidelity. To leverage the benefits of both 2DGS and 3DGS, we propose a novel method named MixedGaussianAvatar for realistically and geometrically accurate head avatar reconstruction. Our main idea is to utilize 2D Gaussians to reconstruct the surface of the 3D head, ensuring geometric accuracy. We attach the 2D Gaussians to the triangular mesh of the FLAME model and connect additional 3D Gaussians to those 2D Gaussians where the rendering quality of 2DGS is inadequate, creating a mixed 2D-3D Gaussian representation. These 2D-3D Gaussians can then be animated using FLAME parameters. We further introduce a progressive training strategy that first trains the 2D Gaussians and then fine-tunes the mixed 2D-3D Gaussians. We demonstrate the superiority of MixedGaussianAvatar through comprehensive experiments.
 </details>
 
-#### 6. SimAvatar: Simulation-Ready Avatars with Layered Hair and Clothing
+#### 5. SimAvatar: Simulation-Ready Avatars with Layered Hair and Clothing
 Xueting Li, Ye Yuan, Shalini De Mello, Gilles Daviet, Jonathan Leaf, Miles Macklin, Jan Kautz, Umar Iqbal (NVIDIA)
 <details span>
 <summary><b>Abstract</b></summary>
@@ -219,7 +225,6 @@ We introduce SimAvatar, a framework designed to generate simulation-ready clothe
 | ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | 2023 | **Make-A-Character: High Quality Text-to-3D Character Generation within Minutes**  | 24 Dec 2023  |          [Link](https://arxiv.org/abs/2312.15430)          |  [Link](https://github.com/Human3DAIGC/Make-A-Character)  | [Link](https://human3daigc.github.io/MACH/)  |
 | 2024 | **InstructHumans: Editing Animated 3D Human Textures with Instructions**  | 5 Apr 2024  |          [Link](https://arxiv.org/abs/2404.04037)          | [Link](https://github.com/viridityzhu/InstructHumans)  | [Link](https://jyzhu.top/instruct-humans/)  |
-| 2024 | **HumanCoser: Layered 3D Human Generation via Semantic-Aware Diffusion Model**  | 21 Aug 2024  |          [Link](https://arxiv.org/abs/2408.11357)          | -- | -- |
 | 2024 | **DreamHOI: Subject-Driven Generation of 3D Human-Object Interactions with Diffusion Priors**  | 12 Sep 2024  |          [Link](https://arxiv.org/abs/2409.08278)          | [Link](https://github.com/hanwenzhu/dreamhoi)| [Link](https://dreamhoi.github.io/) |
 | 2024 | **MixedGaussianAvatar: Realistically and Geometrically Accurate Head Avatar via Mixed 2D-3D Gaussian Splatting**  | 6 Dec 2024  |    [Link](https://arxiv.org/abs/2412.04955)       | [Link](https://github.com/ChenVoid/MGA/)| [Link](https://chenvoid.github.io/MGA/) |
 | 2024 | **SimAvatar: Simulation-Ready Avatars with Layered Hair and Clothing**  | 19 Dec 2024  |    [Link](https://arxiv.org/abs/2412.09545)       | -- | [Link](https://nvlabs.github.io/SimAvatar/) |
@@ -242,16 +247,6 @@ We introduce SimAvatar, a framework designed to generate simulation-ready clothe
          title={InstructHumans: Editing Animated 3D Human Textures with Instructions},
          journal={arXiv preprint arXiv:2404.04037},
          year={2024}
-}
-
-@misc{wang2024humancoserlayered3dhuman,
-      title={HumanCoser: Layered 3D Human Generation via Semantic-Aware Diffusion Model}, 
-      author={Yi Wang and Jian Ma and Ruizhi Shao and Qiao Feng and Yu-kun Lai and Kun Li},
-      year={2024},
-      eprint={2408.11357},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2408.11357}, 
 }
 
 @article{zhu2024dreamhoi,
