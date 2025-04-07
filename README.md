@@ -53,7 +53,7 @@ This repository is divided into two main sections:
     * [Text to Other Tasks](#text-to-other-tasks)
     * [Survey and Awesome Repos](#survey-and-awesome-repos)
 
-## 📜 Our Survey Paper Collection
+## 📜 Our Survey Paper Collection 
 <p align=center> 𝐒𝐢𝐦𝐮𝐥𝐚𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐑𝐞𝐚𝐥 𝐖𝐨𝐫𝐥𝐝: 𝐀 𝐔𝐧𝐢𝐟𝐢𝐞𝐝 𝐒𝐮𝐫𝐯𝐞𝐲 𝐨𝐟 𝐌𝐮𝐥𝐭𝐢𝐦𝐨𝐝𝐚𝐥 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐯𝐞 𝐌𝐨𝐝𝐞𝐥𝐬 </p>
 
 <div align=center>
@@ -352,6 +352,8 @@ Transformer-based Architectures.
 
 -------
 
+[<u>🎯Back to Top - Our Survey Paper Collection</u>](#-our-survey-paper-collection)
+
 ## 🔥 Awesome Text2X Resources
 
 An open collection of state-of-the-art (SOTA), novel **Text to X (X can be everything)** methods (papers, codes and datasets), intended to keep pace with the anticipated surge of research.
@@ -515,7 +517,7 @@ We present Free4D, a novel tuning-free framework for 4D scene generation from a 
 In 2023, tasks classified as text/Image to 4D and video to 4D generally involve producing four-dimensional data from text/Image or video input. For more details, please check the [2023 4D Papers](./docs/4d/4d_2023.md), including 6 accepted papers and 3 arXiv papers.
 
 ### Year 2024
-For more details, please check the [2024 4D Papers](./docs/4d/4d_2024.md), including 20 accepted papers and 14 arXiv papers.
+For more details, please check the [2024 4D Papers](./docs/4d/4d_2024.md), including 21 accepted papers and 13 arXiv papers.
 
 --------------
 
@@ -606,7 +608,7 @@ Video personalization methods allow us to synthesize videos with specific concep
 ### Previous Papers
 
 ### Year 2024
-For more details, please check the [2024 T2V Papers](./docs/video/t2v_2024.md), including 20 accepted papers and 7 arXiv papers.
+For more details, please check the [2024 T2V Papers](./docs/video/t2v_2024.md), including 21 accepted papers and 6 arXiv papers.
 
 - OSS video generation models: [Mochi 1](https://github.com/genmoai/models) preview is an open state-of-the-art video generation model with high-fidelity motion and strong prompt adherence.
 - Survey: The Dawn of Video Generation: Preliminary Explorations with SORA-like Models, [arXiv](https://arxiv.org/abs/2410.05227), [Project Page](https://ailab-cvc.github.io/VideoGen-Eval/), [GitHub Repo](https://github.com/AILab-CVC/VideoGen-Eval)
@@ -698,7 +700,7 @@ year={2025}
 ### Previous Papers
 
 ### Year 2023-2024
-For more details, please check the [2023-2024 3D Scene Papers](./docs/3d_scene/3d_scene_23-24.md), including 21 accepted papers and 10 arXiv papers.
+For more details, please check the [2023-2024 3D Scene Papers](./docs/3d_scene/3d_scene_23-24.md), including 22 accepted papers and 9 arXiv papers.
 
 --------------
 
@@ -800,7 +802,7 @@ This paper addresses the challenge of text-conditioned streaming motion generati
 ### Previous Papers
 
 ### Year 2023-2024
-For more details, please check the [2023-2024 Text to Human Motion Papers](./docs/human_motion/motion_23-24.md), including 32 accepted papers and 12 arXiv papers.
+For more details, please check the [2023-2024 Text to Human Motion Papers](./docs/human_motion/motion_23-24.md), including 36 accepted papers and 8 arXiv papers.
 
 ### 📚 Dataset Works
 
@@ -893,7 +895,7 @@ We compare Avat3r with current state-of-the-art methods for few-input and single
 ### Previous Papers
 
 ### Year 2023-2024
-For more details, please check the [2023-2024 3D Human Papers](./docs/3d_human/human_23-24.md), including 17 accepted papers and 6 arXiv papers.
+For more details, please check the [2023-2024 3D Human Papers](./docs/3d_human/human_23-24.md), including 18 accepted papers and 5 arXiv papers.
 
 <details close>
 <summary>Survey and Awesome Repos</summary>
@@ -932,8 +934,10 @@ SMPL-X, that extends SMPL with fully articulated hands and facial expressions (5
 </details>
 </details>
 
-
 --------------
+
+[<u>🎯Back to Top - Text2X Resources</u>](#-awesome-text2x-resources)
+
 
 ## Related Resources
 
@@ -1051,6 +1055,9 @@ SMPL-X, that extends SMPL with fully articulated hands and facial expressions (5
 </details>
 
 --------------
+
+[<u>🎯Back to Top - Table of Contents</u>](#table-of-contents)
+
 
 ## License 
 This repo is released under the [MIT license](./LICENSE).
