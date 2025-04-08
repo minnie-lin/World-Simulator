@@ -530,6 +530,7 @@ For more details, please check the [2024 4D Papers](./docs/4d/4d_2024.md), inclu
 | 2025 | **TransPixar: Advancing Text-to-Video Generation with Transparency**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2501.03006)          | [Link](https://github.com/wileewang/TransPixar)  | [Link](https://wileewang.github.io/TransPixar/)  |
 | 2025 | **BlobGEN-Vid: Compositional Text-to-Video Generation with Blob Video Representations**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2501.07647)          | -- | [Link](https://blobgen-vid2.github.io/)  |
 | 2025 | **Identity-Preserving Text-to-Video Generation by Frequency Decomposition**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2411.17440)          | [Link](https://github.com/PKU-YuanGroup/ConsisID) | [Link](https://pku-yuangroup.github.io/ConsisID/)  |
+| 2025 | **One-Minute Video Generation with Test-Time Training**  | CVPR 2025 |          [Link](https://arxiv.org/abs/2504.05298v1)          | [Link](https://github.com/test-time-training/ttt-video-dit) | [Link](https://test-time-training.github.io/video-dit/)  |
 
 <details close>
 <summary>Accepted Papers References</summary>
@@ -560,6 +561,17 @@ For more details, please check the [2024 4D Papers](./docs/4d/4d_2024.md), inclu
   journal={arXiv preprint arXiv:2411.17440},
   year={2024}
 }
+
+@misc{dalal2025oneminutevideogenerationtesttime,
+      title={One-Minute Video Generation with Test-Time Training}, 
+      author={Karan Dalal and Daniel Koceja and Gashon Hussein and Jiarui Xu and Yue Zhao and Youjin Song and Shihao Han and Ka Chun Cheung and Jan Kautz and Carlos Guestrin and Tatsunori Hashimoto and Sanmi Koyejo and Yejin Choi and Yu Sun and Xiaolong Wang},
+      year={2025},
+      eprint={2504.05298},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.05298}, 
+}
+
 ```
 </details>
 
