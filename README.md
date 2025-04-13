@@ -1016,7 +1016,7 @@ SMPL-X, that extends SMPL with fully articulated hands and facial expressions (5
 
 #### Awesome Repos
 - Resource1: [Awesome 3D AIGC 1](https://github.com/mdyao/Awesome-3D-AIGC) and [Awesome 3D AIGC 2](https://github.com/hitcslj/Awesome-AIGC-3D)
-- Awesome Text-to-3D: [Resource1](https://github.com/StellarCheng/Awesome-Text-to-3D) and [Resource2](https://github.com/zengbohan0217/Awesome-Text-to-3D)
+- Awesome Text-to-3D: [Resource1](https://github.com/StellarCheng/Awesome-Text-to-3D) and [Resource2](https://github.com/yyeboah/Awesome-Text-to-3D)
 
 #### Benchmars
 - text-to-3d generation: [GPT-4V(ision) is a Human-Aligned Evaluator for Text-to-3D Generation](https://arxiv.org/abs/2401.04092), Wu et al., arXiv 2024 | [Code](https://github.com/3DTopia/GPTEval3D)
